@@ -1,6 +1,6 @@
 const utils = require('../utils')
 
-const data = utils.getDataString('./input.txt')
+const data = utils.getDataString('./day07/input.txt')
 
 function part1(data) {
   const positions = data.split(',').map((char) => parseInt(char))

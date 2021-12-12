@@ -3,8 +3,6 @@ const utils = require('../utils')
 const data = utils.getDataString('./day11/input.txt')
 const dataArr = data.split('\n').map((str) => str.split(''))
 
-console.log(dataArr)
-
 const MAX_ITERATIONS = 20000
 
 // 8

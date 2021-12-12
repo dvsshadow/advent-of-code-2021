@@ -1,6 +1,6 @@
 const utils = require('../utils')
 
-const data = utils.getDataString('./day9/input.txt')
+const data = utils.getDataString('./day09/input.txt')
 const dataArr = data.split('\n').map((str) => str.split(''))
 
 // x = column, y = row

@@ -36,7 +36,7 @@ function part2(dataArr) {
   console.log(count)
 }
 
-const part1Data = utils.getDataString('./input.txt')
+const part1Data = utils.getDataString('./day01/input.txt')
 const data1Arr = part1Data.split('\n').map((val) => {
   return parseInt(val)
 })

@@ -1,6 +1,6 @@
 const utils = require('../utils')
 
-const data = utils.getDataString('./input.txt')
+const data = utils.getDataString('./day04/input.txt')
 const dataArr = data.split("\n\n").map((data) => data.split("\n"));
 
 function part1(data) {

@@ -1,6 +1,6 @@
 const utils = require('../utils')
 
-const data = utils.getDataString('./input.txt')
+const data = utils.getDataString('./day08/input.txt')
 
 function part1(data) {
   let count = 0
